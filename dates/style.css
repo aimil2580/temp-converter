@@ -1,0 +1,23 @@
+html{
+    color-scheme: dark;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3em;
+
+    *{
+        margin: 1em;
+        border-radius: 10px;
+        background-color: rgb(37, 37, 37);
+        padding: 0.4em;
+        border: 1px solid bisque;;
+    }
+}
